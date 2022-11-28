@@ -4,9 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TechPro Audifonos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/normalize.css">
+    <link rel="stylesheet" href="/styles/styles.css">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <div class="imagen-header">
+                <picture>
+                    <source srcset="./img/header.avif" type="image.avif" >
+                    <source srcset="./img/header.webp" type="image.webp" >
+                    <img loading="lazy" decoding="async" src="./img/header.png" lazyalt="imagen" width="1000" height="600">
+                <picture/>
+            </div>
+            <div class="texto-header">
+                <p class="tagline-producto">Sonido Profesional</p>
+                <h1 class="nombre-producto degradado-verde">TechPro</h1>
+                <p class="descripcion-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla officiis doloribus, iste mollitia fugit eveniet enim consequuntur qui vitae, commodi quaerat voluptatum aliquid eius possimus praesentium, labore sequi culpa libero.</p>
+                <p class="precio-producto">Desde <span>$299</span></p>
+            </div>
+        </div>
+    </header>
+    <div class="contenedor">
+        <div class="iconos">
+            <div class="icono">
+                <img src="./img/icono-sonido.svg" alt="icono">
+                <h3>Gran sonido</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae unde reiciendis est deleniti, sint, tempora cum sit qui vel, nam nihil. Voluptates sunt, quisquam ipsum eveniet reprehenderit voluptate. Illum, ab.</p>
+            </div>
+
+            <div class="icono">
+                <img src="./img/icono-garantia.svg" alt="icono">
+                <h3>Garantia de por vida</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae unde reiciendis est deleniti, sint, tempora cum sit qui vel, nam nihil. Voluptates sunt, quisquam ipsum eveniet reprehenderit voluptate. Illum, ab.</p>
+            </div>
+
+            <div class="icono">
+                <img src="./img/icono-bateria.svg" alt="icono">
+                <h3>+20 horas de bateria</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae unde reiciendis est deleniti, sint, tempora cum sit qui vel, nam nihil. Voluptates sunt, quisquam ipsum eveniet reprehenderit voluptate. Illum, ab.</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
